@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { FaLink, FaGithub, FaLaptopCode } from 'react-icons/fa';
 import Link from 'next/link';
 
 interface Project {

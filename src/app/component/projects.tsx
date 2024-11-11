@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 
@@ -19,11 +18,11 @@ const Project = () => {
 
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
-          <Image
+          {/* <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src={("file.svg")}
-          />
+          /> */}
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
               Toggle Button
@@ -35,9 +34,7 @@ const Project = () => {
               Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
               microdosing tousled waistcoat.
             </p>
-            <Link target="_blank" href={"https://student-information-form.vercel.app/"}>
-            <p className='leading-relaxed text-blue-600 hover:underline'> View Project..</p>
-            </Link>
+          
 
           </div>
         </div>
@@ -50,20 +47,13 @@ const Project = () => {
             src={require("../../../public/assests/projects/student information form.png")}
           /> */}
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-              
-              Student Information Form
-            </h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              Form
-            </h1>
+            
+            
             <p className="leading-relaxed">
               Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
               microdosing tousled waistcoat.
             </p>
-            <Link target="_blank" href={"https://student-information-form.vercel.app/"}>
-            <p className='leading-relaxed text-blue-600 hover:underline'> View Project..</p>
-            </Link>
+            
             
           </div>
         </div>
@@ -78,20 +68,13 @@ const Project = () => {
             src={require("../../../public/assests/projects/iqfashioncollections.jpeg")}
           /> */}
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-              IQ Fashion collection
-            </h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              Dress collections
-            </h1>
+            
             <p className="leading-relaxed">
               Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
               microdosing tousled waistcoat.
             </p>
             
-            <Link target="_blank" href={"https://iq-brand-logo.vercel.app/"}>
-            <p className='leading-relaxed text-blue-600 hover:underline'> View Project..</p>
-            </Link>
+            n
           </div>
         </div>
       </div>
