@@ -56,7 +56,7 @@ const Content: React.FC = () => {
        
         <div className="flex justify-center mt-10">
           <Link
-            href="/project"  
+            href="/Project"  
             className="text-white font-semibold text-2xl animate-pulse transform hover:scale-110 transition-all duration-300 hover:bg-teal-700 py-3 px-6 rounded-full border-2 border-teal-500"
           >
             See More Projects
