@@ -10,7 +10,7 @@ const Content: React.FC = () => {
   const projects: Project[] = [
     { 
       name: 'TIC TAC TOE', 
-      image: '/TIC TAC.pNg', 
+      image: '/TIC TAC.png', 
     },
     { 
       name: 'Periodic Table ', 
